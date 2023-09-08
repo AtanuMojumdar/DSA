@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//Prime Number
 public class PrimeNumber {
     public static void main(String[] args) {
         System.out.println("Restart");
