@@ -4,7 +4,8 @@ public class PrimeNumber {
     public static void main(String[] args) {
 //        System.out.println("Restart "+args[0]);
         Scanner obj = new Scanner(System.in);
-        System.out.print("Enter value of a: ");
+        System.out.print("Enter value of a: "); //System is the class,out is a static variable in it,
+                                                // print is a PrintStream which out is referencing to.
         int a = obj.nextInt();
         int b = a;
         System.out.println("Square root of "+b+" is " +Math.sqrt(b));
