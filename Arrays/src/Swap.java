@@ -8,7 +8,7 @@ public class Swap {
         System.out.println(Arrays.toString(arr));
     }
 
-    static void reverseArray(int [] arr){
+    static void reverseArray(int... arr){
         int s = 0;
         int e = arr.length-1;
         while(s<e){
