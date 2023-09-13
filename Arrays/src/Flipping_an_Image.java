@@ -3,8 +3,7 @@ import java.util.Arrays;
 public class Flipping_an_Image {
     public static void main(String[] args) {
         int [][] image = {{1,1,0},{1,0,1},{0,0,0}};
-        int [][] image2 = image.clone();
-        flipAndInvertImage(image);
+        System.out.println(Arrays.deepToString(flipAndInvertImage(image)));
         System.out.println(Arrays.deepToString(image));
     }
     public static int[][] flipAndInvertImage(int[][] image) {
